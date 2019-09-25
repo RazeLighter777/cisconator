@@ -4,7 +4,4 @@ dpkg -i *.deb
 rm *.deb
 git clone https://github.com/jlgaddis/iou2net.git
 ln -s /usr/lib/i386-linux-gnu/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.4
-python keygen.py > iourc
-python ./link.py 
-cat NETMAP
-/root/image.bin 10 &
+chmod +x /root/iou2net/iou2net.pl
